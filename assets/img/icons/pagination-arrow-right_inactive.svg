@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="11px" viewBox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>FF986E16-0572-4B6B-BF10-291AE113B3C9</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arrow-Inactive-Pagination" transform="translate(-1.000000, -1.000000)" fill="#BFBFBF" fill-rule="nonzero">
+            <g transform="translate(4.000000, 6.500000) translate(-4.000000, -6.500000) " id="Arrow-No-active">
+                <g transform="translate(0.500000, 0.571429)">
+                    <path d="M6.40746133,5.70928605 L1.04926834,0.520204477 C0.923109198,0.398027079 0.720778499,0.398027079 0.594619357,0.520204477 C0.468460214,0.642381875 0.468460214,0.838326759 0.594619357,0.960504158 L5.72429768,5.92828327 L0.594619357,10.8960624 C0.468460214,11.0182398 0.468460214,11.2141847 0.594619357,11.3363621 C0.656508747,11.3962982 0.739821388,11.4285714 0.820753668,11.4285714 C0.901685947,11.4285714 0.984998588,11.3986034 1.04688798,11.3363621 L6.40508097,6.1472805 C6.53124012,6.02740833 6.53124012,5.82915822 6.40746133,5.70928605 Z" id="next-hover"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

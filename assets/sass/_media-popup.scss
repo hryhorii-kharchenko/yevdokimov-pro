@@ -1,0 +1,40 @@
+/* Popup media */
+
+@media screen and (max-width:768px)  { 
+  .popup-h2 {
+    line-height: 20px;
+  }
+
+  .popup-subtitle {
+    margin: 3px 0px 17px;
+  }
+}
+
+
+
+@media screen and (max-width:400px)  { 
+  .popup-rules-scroll-container {
+    height: 300px;
+  }
+}
+
+
+
+@media screen and (max-width:380px)  {
+  .popup-textarea {
+    height: 100px;
+  }
+
+
+  .popup-menu-a {
+    margin: 21% 0;
+  }
+}
+
+
+
+@media screen and (max-width: 330px) {
+  .popup-rules-scroll-container {
+      height: 190px;
+  }
+}

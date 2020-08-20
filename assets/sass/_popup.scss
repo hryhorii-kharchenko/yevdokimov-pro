@@ -1,0 +1,185 @@
+/* Popup */
+
+.goodpopup {
+  z-index: 100;
+}
+
+.popup {
+  width: 100%;
+  background-color:  #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.popup-order {
+  max-width: 558px;
+}
+
+.popup-contact {
+  max-width: 558px;
+}
+
+.popup-rules {
+  max-width: 692px;
+}
+
+
+
+.popup-h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 35px;
+}
+
+.popup-subtitle {
+  margin: 6px 0px 17px;
+}
+
+
+.popup-p {
+  max-width: 366px;
+  margin: 10px auto 0px;
+  font-size: 12px;
+  color: $popup-grey;
+  line-height: 15px;
+}
+
+.popup-rules-p {
+  margin: 0px;
+
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+}
+
+.popup-rules-graytext-p {
+  margin: 7px 0px 0px;
+
+  font-size: 10px;
+  text-align: left;
+  line-height: 12px;
+  color: $cards-li_false;
+}
+
+.popup-li-number-p {
+  margin: 0px 8px 0px 0px;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  color: $main;
+}
+
+
+.popup-rules-li {
+  margin-top: 20px;
+}
+
+.popup-order-li:first-child {
+  margin-top: 0;
+}
+
+
+.popup-rules-break {
+  max-width: 492px;
+  height: 1px;
+  margin: 13px auto 10px;
+  padding: 0px 50px;
+  background-color: $cards-grey;
+  box-sizing: border-box;
+}
+
+
+.popup-rules-scroll-container {
+  height: 448px;
+}
+
+
+.popup-rules-a {
+  font-size: 12px;
+  color: $main;
+  text-decoration: underline;
+}
+
+
+.popup-order-btn {
+  margin: 16px auto 0px;
+}
+
+.popup-contact-btn {
+  margin: 31px auto 0px;
+}
+
+
+
+.goodpopup-inner-content-element_withclosebutton {
+  max-width: 558px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 20px 20px;
+  box-sizing: border-box;
+}
+
+
+
+.popup-menu {
+  display: block;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.popup-menu-a {
+  display: block;
+  margin: 27% 0;
+}
+
+
+.popup-close-btn {
+  margin: 20px auto 0px;
+}
+
+
+
+.goodpopup-close-svg {
+  width: 18px;
+}
+
+.goodpopup-close {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  width: 1.5em;
+  cursor: pointer;
+  line-height: 1;
+  color: #c1c1c1;
+}
+
+.goodpopup-close-svg__path {
+  fill: #c1c1c1;
+  
+  transition: fill 0.2s;
+}
+
+.goodpopup-close:hover .goodpopup-close-svg__path {
+  fill: $main;
+}
+
+
+
+.flag-container {
+  height: 50px;
+}
+
+
+
+
+
+/* Popup media */
+
+@import 'media-popup';

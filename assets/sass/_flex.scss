@@ -1,0 +1,119 @@
+/* Flex */
+
+@mixin flex-position($justify-content, $align-items) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+
+.flex-align-content_start {
+  align-content: flex-start;
+}
+
+
+.flex-space-between_start {
+  @include flex-position(space-between, flex-start);
+}
+
+.flex-space-between_end {
+  @include flex-position(space-between, flex-end);
+}
+
+.flex-space-between_center {
+  @include flex-position(space-between, center);
+}
+
+.flex-space-between_baseline {
+  @include flex-position(space-between, baseline);
+}
+
+
+.flex-space-around_start {
+  @include flex-position(space-around, flex-start);
+}
+
+.flex-space-around_end {
+  @include flex-position(space-around, flex-end);
+}
+
+.flex-space-around_center {
+  @include flex-position(space-around, center);
+}
+
+.flex-space-around_baseline {
+  @include flex-position(space-around, baseline);
+}
+
+
+.flex-space-evenly_start {
+  @include flex-position(space-evenly, flex-start);
+}
+
+.flex-space-evenly_end {
+  @include flex-position(space-evenly, flex-end);
+}
+
+.flex-space-evenly_center {
+  @include flex-position(space-evenly, center);
+}
+
+.flex-space-evenly_baseline {
+  @include flex-position(space-evenly, baseline);
+}
+
+
+.flex-start_start {
+  @include flex-position(flex-start, flex-start);
+}
+
+.flex-start_end {
+  @include flex-position(flex-start, flex-end);
+}
+
+.flex-start_center {
+  @include flex-position(flex-start, center);
+}
+
+.flex-start_baseline {
+  @include flex-position(flex-start, baseline);
+}
+
+
+.flex-end_start {
+  @include flex-position(flex-end, flex-start);
+}
+
+.flex-end_end {
+  @include flex-position(flex-end, flex-end);
+}
+
+.flex-end_center {
+  @include flex-position(flex-end, center);
+}
+
+.flex-end_baseline {
+  @include flex-position(flex-end, baseline);
+}
+
+
+.flex-center_start {
+  @include flex-position(center, flex-start);
+}
+
+.flex-center_end {
+  @include flex-position(center, flex-end);
+}
+
+.flex-center_center {
+  @include flex-position(center, center);
+}
+
+.flex-center_baseline {
+  @include flex-position(center, baseline);
+}
