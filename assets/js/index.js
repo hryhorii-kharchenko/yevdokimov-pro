@@ -1159,8 +1159,13 @@ $(".footer-rules-a").on("click", callPopupRules);
 		var $portfolioCircles = ($this && $this.siblings()) || $(".portfolio-animation-circle-wrapper");
 		var windowWidth = $(window).width();
 
-		
-		if (windowWidth > 800) {
+		if (windowWidth > 1200) {
+      var imgCenterY = $portfolioImg.height() / 2 + $portfolioImg.parent().position().top;
+
+			$portfolioCircles.width($portfolioImg.width() * 1.05).height($portfolioImg.width() * 1.05);
+			$portfolioCircles.css("top", imgCenterY - $portfolioCircles.height() / 2 + 5);
+			$portfolioCircles.css("left", -58);
+    } else if (windowWidth > 800) {
 			var imgCenterY = $portfolioImg.height() / 2 + $portfolioImg.parent().position().top;
 			var imgCenterX = $portfolioImg.width() / 2 + $portfolioImg.offset().left
 				- parseInt($portfolioContainer.css("margin-left"));
